@@ -32,7 +32,7 @@ installDependencies
 
 ## clone Kernel
 echo "Cloning Kernel"
-git clone https://github.com/divyam234/android_kernel_asus_sdm660 -b eleven kernel
+git clone https://github.com/PixelExperience-Devices/kernel_motorola_exynos9610 -b twelve kernel
 
 ##------------------------------------------------------##
 ##----------Basic Informations, COMPULSORY--------------##
@@ -42,14 +42,14 @@ KERNEL_DIR=$(pwd)/kernel
 cd $KERNEL_DIR
 
 # The name of the device for which the kernel is built
-MODEL="Asus Zenfone Max Pro M2"
+MODEL="Motorola Moto p50"
 
 # The codename of the device
-DEVICE="X01BD"
+DEVICE="kane_retcn"
 
 # The defconfig which should be used. Get it from config.gz from
 # your device or check source
-DEFCONFIG=X01BD_defconfig
+DEFCONFIG=kane_defconfig
 
 # Show manufacturer info
 MANUFACTURERINFO="ASUSTek Computer Inc."
