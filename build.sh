@@ -142,7 +142,6 @@ DATE=$(TZ=Asia/Kolkata date +"%Y-%m-%d")
 }
 
 ##----------------------------------------------------------##
-
 build_kernel() {
 	if [ $INCREMENTAL = 0 ]
 	then
