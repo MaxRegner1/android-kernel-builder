@@ -32,7 +32,7 @@ installDependencies
 
 ## clone Kernel
 echo "Cloning Kernel"
-git clone https://github.com/PixelExperience-Devices/kernel_motorola_exynos9610 -b twelve kernel
+git clone https://github.com/bamsbamx/BMSBMX_kernel-kugo -b master kernel
 
 ##------------------------------------------------------##
 ##----------Basic Informations, COMPULSORY--------------##
