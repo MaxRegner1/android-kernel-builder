@@ -54,7 +54,7 @@ DEVICE="X01BD"
 
 # The defconfig which should be used. Get it from config.gz from
 # your device or check source
-DEFCONFIG=defconfig
+DEFCONFIG="oldconfig"
 
 # Show manufacturer info
 MANUFACTURERINFO="ASUSTek Computer Inc."
