@@ -33,6 +33,8 @@ installDependencies
 ## clone Kernel
 echo "Cloning Kernel"
 git clone https://github.com/bamsbamx/BMSBMX_kernel-kugo -b master kernel
+mkdir Kernel/out
+mkdir out 
 
 ##------------------------------------------------------##
 ##----------Basic Informations, COMPULSORY--------------##
