@@ -35,6 +35,9 @@ echo "Cloning Kernel"
 git clone https://github.com/bamsbamx/BMSBMX_kernel-kugo -b master kernel
 mkdir Kernel/out
 mkdir out 
+cd kernel
+rm -rf out 
+mkdir out 
 
 ##------------------------------------------------------##
 ##----------Basic Informations, COMPULSORY--------------##
