@@ -32,7 +32,7 @@ installDependencies
 
 ## clone Kernel
 echo "Cloning Kernel"
-git clone https://github.com/divyam234/android_kernel_asus_sdm660 -b eleven kernel
+git clone https://github.com/bamsbamx/BMSBMX_kernel-kugo -b master kernel
 
 ##------------------------------------------------------##
 ##----------Basic Informations, COMPULSORY--------------##
